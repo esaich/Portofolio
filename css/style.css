@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    font-family: 'PT Sans';
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0px 0.2px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #faf7f7;
+}
+
+.menu h1{
+    padding-left: 10px;
+}
+
+.menu ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.menu a:hover{
+    font-weight: 600;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+
+.container{
+    background-color: white;
+}
+
+
+.jumbotron{
+   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+   display: grid;
+   grid-template-columns: 60% 40%;
+   gap: 5px;
+ 
+    
+}
+
+.komponen1{
+    padding-top: 140px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+
+.nama{
+    font-family: 'PT Sans' ;
+    padding-top: 21px ;
+    font-size: 44px;
+}
+
+.about{
+    padding-top: 6px ;
+    color: #5b4e4e;
+    
+}
+
+.jumbotron .komponen{
+    
+    box-sizing: border-box;
+}
+
+.jumbotron img{
+    display: block;
+    width: 100%;
+  
+}
+
+
+.sosmed{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,30px);
+    list-style: none;
+    gap: 36px;
+   
+}
+
+.sosmed ul li a img{
+    padding: 20px;
+}
+
+
+.content{
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.gallery{
+    
+}
+
+.gallery ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    list-style: none;
+}
+
+.gallery img{
+    width: 120px;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: #5b4e4e;
+}
+
+footer a{
+    text-decoration: none;
+    color: #5b4e4e;
+}
